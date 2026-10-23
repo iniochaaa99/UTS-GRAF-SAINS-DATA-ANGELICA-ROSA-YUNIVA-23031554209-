@@ -1,0 +1,18 @@
+# Virtual environment
+myenv/
+myvenv/
+.venv/
+
+# Dataset mentah (terlalu besar untuk GitHub, batas 100 MB per file)
+*.zip
+data/events.csv
+data/category_tree.csv
+data/item_properties_part*.csv
+
+# Python dan Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Editor
+.vscode/
